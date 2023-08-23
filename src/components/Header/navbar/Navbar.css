@@ -1,0 +1,48 @@
+.n-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 14px;
+}
+
+.n-wrapper a {
+    font-size: 13px;
+    display: inline-block;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(0, 0, 0, 0.87);
+    cursor: pointer;
+    padding: 5px 6.7px;
+    text-decoration: none;
+}
+
+.n-wrapper a:hover {
+    text-decoration: underline;
+    opacity: .85;
+}
+
+.n-wrapper img {
+    width: 34px;
+    padding: 5px;
+    margin: auto 7px;
+    cursor: pointer;
+}
+
+.n-wrapper img:hover {
+    opacity: .8;
+}
+
+.n-wrapper button {
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.42;
+    color: white;
+    border-radius: 4px;
+    background-color: #1a73e8;
+    outline: none;
+    min-width: 88px;
+}
